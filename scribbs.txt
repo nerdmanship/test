@@ -1,0 +1,38 @@
+var object = {
+  ref: document.getElementById("foo"),
+  name: box1,
+  words: ["first", "second"]
+}
+
+// can i call a timeline on an object
+
+
+create all boxes
+get hovered box
+itereate thru all boxes to check distance
+
+fill the space,
+get height and width,
+divide w "resoluton"
+
+height = 600
+width = 1000
+
+boxSize = 10
+
+vh/boxSize = numVer
+vw/boxSize = numHor
+
+numBox = numVer * numHor
+
+findCenter() {
+  // a name
+  px = math.floor(numHor/2) // returns 50
+  py = math.floor(numVer/2) // returns 30
+  pixel(px, py)
+}
+
+findAllHor(pos) // take number or "center" or "first/last"
+findAllVer(pos)
+
+findWithInterval(val) // number of boxes away
